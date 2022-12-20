@@ -237,7 +237,7 @@ namespace PolisForm {
 		}
 		void heightdataGrid(int k) {
 			if (k > 0) {
-				dataGridView1->RowTemplate->Height = 523 / k; // 523 це высота датагрида
+				dataGridView1->RowTemplate->Height = 523 / k;
 			}
 			
 		}

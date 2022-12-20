@@ -3,8 +3,6 @@
 #include <string>
 using namespace std;
 
-// ласс Record описывает структуру хранени€ данных "название "€чейки" - еЄ значение".
-
 class Record {
 private:
 	string name;

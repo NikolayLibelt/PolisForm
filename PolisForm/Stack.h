@@ -1,6 +1,5 @@
 #pragma once
 
-// Класс Stack организовывает структуру данных стек на шаблоне
 
 template <typename T>
 class Stack {

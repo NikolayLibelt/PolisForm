@@ -87,15 +87,15 @@ public:
 	}
 	int is_empty() {
 		if (count == 0) {
-			return 1; //пусто
+			return 1; //True
 		}
-		return 0; // не пусто
+		return 0; //False
 	}
 	int is_full() {
 		if (count == size) {
-			return 1; // полный
+			return 1; //True
 		}
-		return 0; // не полный
+		return 0; //False
 	}
 	int GetCount() {
 		return count;
